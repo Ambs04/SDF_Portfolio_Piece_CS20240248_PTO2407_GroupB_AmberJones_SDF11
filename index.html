@@ -42,32 +42,36 @@
 <body class="bg-grey-100">
   <!--NAVIGATION SECTION-->
   <div>
+    <!--COMPONENT 1-->
     <div class="mx-auto bg-white">
-      <!--COMPONENT 1-->
+      <!--MAIN CONTAINER WITH NAV AND HEADER CONTENT-->
       <div
         class="relative w-full flex flex-wrap mx-auto items-center justify-between shrink-0 p-7"
       >
-        <!--MAIN CONTAINER WITH NAV AND HEADER CONTENT-->
+        <!--IMAGE-->
         <div class="items-center flex flex-col justify-between">
-          <!--IMAGE-->
           <img
             src="assets/component-1/navigation/cache-bank-logo.png"
             class="w-20"
           />
         </div>
+        <!--LINKS FOR NAV-->
         <div
-          class="flex justify-between items-center mx-auto gap-5 max-sm:hidden"
+          class="flex justify-between items-center mx-auto max-sm:hidden md:text-lg lg:text-xl text-blue-800 tracking-tight md:gap-8 lg:gap-11"
         >
-          <!--LINKS FOR NAV-->
           <a href="#product-sect" class="flex">Product</a>
           <a href="#features-sect" class="flex">Features</a>
           <a href="get-started-sect" class="flex">Get Started</a>
           <a href="contact-sect" class="flex">Contact</a>
         </div>
-        <div class="flex justify-between gap-5 max-sm:hidden">
-          <!--LOGIN AND SIGNUP BUTTONS-->
-          <button class="">Login</button>
-          <button>Sign Up</button>
+        <!--LOGIN AND SIGNUP BUTTONS-->
+        <div
+          class="flex justify-between gap-5 max-sm:hidden tracking-tight md:text-lg lg:text-xl"
+        >
+          <button>Log In</button>
+          <button class="bg-green-600 p-2 rounded-xl">
+            <b>Sign Up</b>
+          </button>
         </div>
         <!--HAMBURGER ICON TOGGLE BUTTON-->
         <button class="md:hidden" id="menu-toggle-for-mobile">
@@ -101,7 +105,7 @@
         </button>
         <!--MOBILE VIEW NAV BAR-->
         <div
-          class="flex flex-col absolute top-full items-start justify-center w-full min-h-50% max-h-screen overflow:hidden md:hidden"
+          class="flex flex-col absolute top-full items-start justify-center w-full min-h-50% max-h-screen overflow:hidden md:hidden bg-white"
           id="menu-for-mobile"
         >
           <a href="#product-sect">Product</a>

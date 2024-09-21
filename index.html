@@ -86,7 +86,7 @@
         >
           <button class="hover:text-blue-400 hover:text-xl mx-2">Log In</button>
           <button
-            class="bg-green-500 p-2 rounded-xl hover:bg-pink-500 hover:shadow-md font-bold"
+            class="bg-teal-500 p-2 rounded-xl hover:bg-pink-500 hover:shadow-md font-bold"
           >
             Sign Up
           </button>
@@ -165,29 +165,42 @@
   <!--CONTAINER FOR HERO SECTION-->
   <section
     class="w-full grid md:grid-cols-2 lg:grid-cols-2 md:gap-5 lg:gap-7 my-auto mx-auto"
+    id="product-sect"
   >
     <!-- MAIN CONTAINER FOR TEXT SIDE OF SECTION-->
-    <div class="flex flex-col">
+    <div class="flex flex-col gap-7 justify-center items-center">
       <!--HEADING-->
-      <h1 class="flex font-extrabold text-4xl leading-tight text-dark-grey-900">
+      <h1
+        class="flex text-start font-extrabold text-4xl leading-tight text-dark-grey-900 pl-9"
+      >
         The Clever Place To Keep Your Cache
       </h1>
       <!--P TEXT-->
-      <p class="text-xl leading-tight text-dark-grey-900">
+      <p class="text-xl text-start leading-tight text-dark-grey-900 pl-9">
         Cache Bank is designed exclusively for software developers. We
         understand your financial needs are as unique as the code you write. Our
         services offer cutting-edge financial solutions that help you take care
         of your cash.
       </p>
       <!--CONTAINER FOR BUTTONS-->
-      <div class="md:flex md:flex-col text-white bg-green-500">
-        <button>Join Cache Now</button>
-        <button>Join Our Discord Server</button>
+      <div
+        class="flex flex-col md:flex md:flex-row gap-5 sm:mx-auto sm:justify-center sm:items-center"
+      >
+        <button
+          class="flex items-center py-4 px-2 text-white bg-teal-500 rounded-lg"
+        >
+          Join Cache Now
+        </button>
+        <button
+          class="flex items-center py-4 px-2 text-white bg-teal-500 rounded-lg"
+        >
+          Join Our Discord Server
+        </button>
       </div>
     </div>
     <!--MAIN CONTAINER FOR IMAGE SIDE OF SECTION-->
-    <div class="">
-      <img src="/assets/component-2/hero-image.png" class="" />
+    <div class="w-4/5 max-sm:hidden">
+      <img src="/assets/component-2/hero-image.png" />
     </div>
   </section>
 

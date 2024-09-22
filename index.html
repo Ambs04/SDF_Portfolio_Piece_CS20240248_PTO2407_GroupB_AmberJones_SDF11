@@ -613,17 +613,25 @@
 
   <!--HOW IT WORKS SECTION-->
   <!--MAIN CONATINER FOR IMAGE AND HOW IT WORKS SECTION-->
-  <div class="grid grid-cols-2 w-full">
+  <div
+    class="grid max-md:grid-cols-2 max-lg:grid-cols-2 max-sm:grid-cols-1 w-full"
+  >
     <!--MAIN CONTAINER FOR IMAGE SIDE OF HOW IT WORKS SECTION-->
-    <div>
+    <div class="flex flex-col max-sm:hidden p-6 m-5">
       <img src="./assets/component-4/getting-started.png" />
     </div>
     <!--MAIN CONTAINER FOR STEPS SECTION OF HOW IT WORKS-->
     <div>
       <!--CONTAINER FOR INTRO TO STEPS PART HOW IT WORKS SECTION -->
-      <div class="flex flex-col">
-        <h2>How Cache Works?</h2>
-        <p>
+      <div class="flex flex-col mb-12">
+        <h2
+          class="lg:text-4xl md:text-2xl text-xl font-extrabold text-dark-grey-900 max-sm:text-center leading-normal my-3"
+        >
+          How Cache Works?
+        </h2>
+        <p
+          class="text-sm font-medium text-black-900 tracking-tight max-sm:text-center"
+        >
           Cache Bank simplifies sign-up with a user-friendly website,
           streamlined account options, and an effecient verification process,
           making banking accessible and hassle-free for developers.
@@ -633,32 +641,67 @@
       <div class="grid grid-cols-2">
         <!--NUMBER 1-->
         <div class="">
-          <span>1</span>
-          <h3>Visit Cache Bank Website</h3>
-          <p>Go to Cache Bank, click "Sign Up" or "Open an Account".</p>
+          <!--CONTAINER FOR NUMBER-->
+          <div
+            class="flex flex-col w-10 h-10 rounded-full bg-teal-500 justify-center items-center text-white"
+          >
+            <span>1</span>
+          </div>
+          <!--CONTAINER FOR INFO-->
+          <div>
+            <h3>Visit Cache Bank Website</h3>
+            <p>Go to Cache Bank, click "Sign Up" or "Open an Account".</p>
+          </div>
         </div>
         <!--NUMBER 2-->
         <div>
-          <span>2</span>
-          <h3>Choose Account Type</h3>
-          <p>Select from checking, savings, or developer-specific accounts.</p>
+          <!--CONTAINER FOR NUMBER-->
+          <div
+            class="flex flex-col w-10 h-10 rounded-full bg-pink-500 justify-center items-center text-white"
+          >
+            <span>2</span>
+          </div>
+          <!--CONTAINER FOR INFO-->
+          <div>
+            <h3>Choose Account Type</h3>
+            <p>
+              Select from checking, savings, or developer-specific accounts.
+            </p>
+          </div>
         </div>
         <!--NUMBER 3-->
         <div>
-          <span>3</span>
-          <h3>Provide Personal Information</h3>
-          <p>
-            Complete the form with your details and identification for security.
-          </p>
+          <!--CONTAINER FOR NUMBER-->
+          <div
+            class="flex flex-col w-10 h-10 rounded-full bg-pink-500 justify-center items-center text-white"
+          >
+            <span>3</span>
+          </div>
+          <!--CONTAINER FOR INFO-->
+          <div>
+            <h3>Provide Personal Information</h3>
+            <p>
+              Complete the form with your details and identification for
+              security.
+            </p>
+          </div>
         </div>
         <!--NUMBER 4-->
         <div>
-          <span>4</span>
-          <h3>Verify and Submit</h3>
-          <p>
-            Check your information, agree to terms, anf submit for account
-            approval.
-          </p>
+          <!--CONTAINER FOR NUMBER-->
+          <div
+            class="flex flex-col w-10 h-10 rounded-full bg-teal-500 justify-center items-center text-white"
+          >
+            <span>4</span>
+          </div>
+          <!--CONTAINER FOR INFO-->
+          <div>
+            <h3>Verify and Submit</h3>
+            <p>
+              Check your information, agree to terms, anf submit for account
+              approval.
+            </p>
+          </div>
         </div>
       </div>
     </div>

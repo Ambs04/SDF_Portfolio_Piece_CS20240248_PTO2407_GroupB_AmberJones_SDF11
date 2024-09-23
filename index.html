@@ -125,7 +125,7 @@
         </button>
         <!--MOBILE VIEW NAV BAR-->
         <div
-          class="flex flex-col absolute top-full items-start justify-center w-full min-h-50% max-h-screen overflow:hidden md:hidden bg-white hidden leading-tight"
+          class="flex flex-col absolute top-full items-start justify-center w-full max-h-screen overflow:hidden md:hidden bg-white hidden leading-tight"
           id="menu-for-mobile"
         >
           <a
@@ -173,7 +173,7 @@
     <div class="flex flex-col gap-7 justify-center items-center">
       <!--HEADING-->
       <h1
-        class="flex text-center font-extrabold lg:text-4xl leading-tight text-dark-grey-900 pl-9 min-md:text-2xl sm:text-xl pt-7"
+        class="flex text-center font-extrabold lg:text-4xl leading-tight text-dark-grey-900 pl-2 min-md:text-2xl max-sm:text-xl pt-7"
       >
         The Clever Place To Keep Your Cache
       </h1>
@@ -321,7 +321,7 @@
       </h3>
       <!--TEXT CONTENT-->
       <p
-        class="flex w-6/12 mx-auto pb-12 px-6 leading-tight text-dark-grey-700 text-center"
+        class="flex w-6/12 mx-auto pb-12 leading-tight text-dark-grey-700 text-center"
       >
         We merge cutting-edge banking with a deep understanding of software
         developers' needs. Experience tailored financial solutions, advanced
@@ -613,27 +613,25 @@
 
   <!--HOW IT WORKS SECTION-->
   <!--MAIN CONATINER FOR IMAGE AND HOW IT WORKS SECTION-->
-  <div
-    class="grid max-md:grid-cols-2 lg:grid-cols-2 grid-cols-1 w-full min-lg:my-auto min-lg:text-lg"
-  >
+  <div class="grid grid-cols-2 min-lg:my-auto min-lg:text-lg max-sm:block">
     <!--MAIN CONTAINER FOR IMAGE SIDE OF HOW IT WORKS SECTION-->
-    <div class="flex flex-col max-sm:hidden mr-9">
+    <div class="mr-9 flex flex-col justify-center items-center">
       <img
-        src="./assets/component-4/getting-started.png"
-        class="flex flex-col justify-center items-center"
+        src="assets/component-4/getting-started.png"
+        class="max-sm:block max-sm:hidden object-cover"
       />
     </div>
     <!--MAIN CONTAINER FOR STEPS SECTION OF HOW IT WORKS-->
-    <div class="flex flex-col">
+    <div class="flex flex-col max-sm:items-center max-sm:">
       <!--CONTAINER FOR INTRO TO STEPS PART HOW IT WORKS SECTION -->
       <div class="flex flex-col mb-5">
         <h2
-          class="lg:text-4xl md:text-2xl text-xl font-extrabold text-dark-grey-900 max-sm:text-center leading-normal my-3"
+          class="lg:text-4xl md:text-2xl text-xl font-extrabold text-dark-grey-900 max-sm:text-center leading-normal my-3 pb-6"
         >
           How Cache Works?
         </h2>
         <p
-          class="text-sm font-medium text-black-900 tracking-tight max-sm:text-center"
+          class="text-sm font-medium text-black-900 tracking-tight max-sm:text-center mb-9"
         >
           Cache Bank simplifies sign-up with a user-friendly website,
           streamlined account options, and an effecient verification process,
